@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration Page</title>
+	<link rel = "icon" type = "image/x-icon" href="images/logo.png">
+	<link rel ="stylesheet" type = "text/css" href="css/style.css">
+</head>
+<body>
+	<form action="home.html">
+
+		<div id="container">
+			<div id="logoArea">
+				<img src ="images/logo.png">
+				<h3>Registration</h3>
+
+
+			</div>
+			<div id="inputFieldArea">
+				<small>Personal Information</small>
+				<div class="groupField">
+					<label>Enter Firstname:</label><br>
+					<input text ="text" id="fname" autocomplete="off" required>
+				</div>
+				<div class="groupField">
+					<label>Enter Middlename:</label><br>
+					<input text ="text" id="lname" autocomplete="off" required>
+				</div>
+				<div class="groupField">
+					<label>Enter Lastname:</label><br>
+					<input text ="text" id="mname" autocomplete="off"
+					required>
+				</div>
+				<div class="groupField">
+					<label>Select Suffix:</label><br>
+					<select id="suffix"autocomplete="off" required>
+						<option>None</option>
+						<option>Jr</option>
+						<option>Sr</option>
+						<option>I</option>
+						<option>II</option>
+						<option>III</option>
+						<option>IV</option>
+						<option>V</option>
+					</select>
+				</div>
+				<div class="groupField">
+					<label>Pick Birthdate:</label><br>
+					<input type="date" id="bdate"autocomplete="off" required>
+				</div>
+				<small>User Account Information</small>
+				<div class="groupField">
+					<label>Enter Email Address:</label><br>
+					<input type="email" id="email" autocomplete="off" required>
+				</div>
+				<div class="groupField">
+					<label>Enter Password</label><br>
+					<input type="password" id="password"autocomplete=
+					"off" required>
+				</div>
+				<div id ="buttonArea">
+					<button type="reset">Cancel</button>
+					<button type="submit">Submit</button>
+				
+			</div>
+		</div>
+	</form>
+
+</body>
+</html>
